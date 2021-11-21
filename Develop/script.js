@@ -11,7 +11,12 @@ console.log(upper, lower, number, symbol);
 // Do I need to set declare the password as well? Ex: var password; password = upper, lower, number, symbol;?
 // Do I need to assign a var for length? 
 
-
+//User input variables
+var confirmLength = "";
+var confirmUpper;
+var confirmLower;
+var confirmNumber;
+var confirmSymbol;
 
 
 
@@ -20,10 +25,18 @@ function generatePassword() {
 
   // 1. Prompt the user for the password criteria
   //    a. Password Length 8 to 128
+  var confirmLength = window.prompt("How long would you like your password to be? (Choose between 8 to 128 characters)");
+
   //    b. Lowercase, uppercase, numbers, special characters
   //       - Press okay to confirm and cancel to decline
+  confirmUpper = confirm("Do you want uppercase letters?(Select OK to confirm and CANCEL to decline)");
+  confirmLower = confirm("Do you want lowercase letters?(Select OK to confirm and CANCEL to decline)");
+  confirmNumber = confirm("Do you want numbers?(Select OK to confirm and CANCEL to decline)");
+  confirmSymbol = confirm("Do you want symbols?(Select OK to confirm and CANCEL to decline)");
+  
   // 2. Validate the input
   //    a. Loop for if another number is chosen outside range
+  
   // 3. Generate Password
 
 
