@@ -26,10 +26,13 @@ function generatePassword() {
   // 1. Prompt the user for the password criteria
   //    a. Password Length 8 to 128
   var confirmLength = window.prompt("How long would you like your password to be? (Choose between 8 to 128 characters)");
-if (confirmLength < 8 || confirmLength > 128) {
+  if (confirmLength < 8 || confirmLength > 128) {
     alert("Please chose a character between 8 and 128");
     return ""
   }
+
+
+
   //    b. Lowercase, uppercase, numbers, special characters
   //       - Press okay to confirm and cancel to decline
   confirmUpper = confirm("Do you want uppercase letters?(Select OK to confirm and CANCEL to decline)");
@@ -58,6 +61,7 @@ if (confirmLength < 8 || confirmLength > 128) {
     return ""
   }
   
+
   var randomPassword = "";
   // 2. Validate the input
   //    a. Loop for if another number is chosen outside range
