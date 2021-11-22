@@ -10,7 +10,9 @@ A website to generate random passwords using capital letters, lower case letter,
 
 ## Final Product
 
-![Image of the final product](https://github.com/barrantesc/Password-Maker-2.0/blob/f5f461fc27625898d54afeff19673e037ba557eb/Screen%20Shot%202021-11-21%20at%209.44.08%20PM.png)
+![Image of the the first prompt product](https://github.com/barrantesc/Password-Maker-2.0/blob/f5f461fc27625898d54afeff19673e037ba557eb/Screen%20Shot%202021-11-21%20at%209.44.08%20PM.png)
+
+![Image of the final product](https://github.com/barrantesc/Password-Maker-2.0/blob/c834a642b4df37fba2d0200bef321c1be430d78d/FinalPic.png)
 
 ## Website
 https://barrantesc.github.io/Password-Maker-2.0/
